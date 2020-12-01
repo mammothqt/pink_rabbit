@@ -1,5 +1,5 @@
 class Voting < ApplicationRecord
   belongs_to :votingable, polymorphic: true
 
-  enum status: { not_chosen: 0, join: 1, busy: 2 }
+  enum status: { no_idea: 0, can_join: 1, busy: 2 }
 end
