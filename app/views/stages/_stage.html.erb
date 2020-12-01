@@ -1,0 +1,15 @@
+<tr>
+  <th></th>
+  <th><%= stage.name %></th>
+  <th><%= stage.address %></th>
+  <th><%= stage.phone_number %></th>
+  <th>
+    <% if can? :update, Stage %>
+      <%= link_to t('.update'), edit_stage_path(stage), class: 'btn btn-primary' %>
+    <% end %>
+    <% if can? :destroy, Stage %>
+      <%= link_to t('.delete'), stage_path(stage), method: :delete,
+                  data: { confirm: t('.sure') }, class: 'btn-danger btn-sm' %>
+    <% end %>
+  </th>
+</tr>

@@ -1,0 +1,17 @@
+<div class='row'>
+  <aside class='span4'>
+    <section>
+      <h1><%= t('.stage_list') %></h1>
+    </section>
+  </aside>
+  <table>
+    <tr>
+      <th><%= t('.num') %></th>
+      <th><%= t('.stage_name') %></th>
+      <th><%= t('.stage_address') %></th>
+      <th><%= t('.phone_number') %></th>
+      <th><%= t('.action') %></th>
+    </tr>
+    <%= render @stages %>
+  </table>
+</div>

@@ -29,34 +29,35 @@
 # To learn more, please read the Rails Internationalization guide
 # available at https://guides.rubyonrails.org/i18n.html.
 
-en:
+vi:
   layouts:
     application:
-      title: 'Pink Rabbit'
+      title: 'Thỏ Hồng Team'
   stages:
     new:
-      new_stage: 'New Stage'
+      new_stage: 'Tạo mới sân'
     edit:
-      title: 'Edit Stage'
-      back: 'Back'
+      title: 'Sửa nội dung sân'
+      back: 'Trở lại'
     index:
-      stage_list: 'Stage List'
-      num: 'No'
-      stage_name: 'Stage Name'
-      stage_address: 'Address'
-      phone_number: 'Phone Number'
-      action: 'Action'
+      stage_list: 'Danh sách sân'
+      num: 'STT'
+      stage_name: 'Tên sân'
+      stage_address: 'Địa chỉ'
+      phone_number: 'Số điện thoại'
+      action: 'Hành động'
     stage:
-      update: 'Update Stage'
-      delete: 'Delete Stage'
+      update: 'Chỉnh sửa'
+      delete: 'Xóa'
+      sure: 'Bạn có chắc chắn muốn xóa?'
     form:
-      name: 'Stage Name'
-      address: 'Stage Address'
-      phone_number: 'Phone Number'
-      submit: 'Submit'
+      name: 'Tên sân'
+      address: 'Địa chỉ'
+      phone_number: 'Số điện thoại'
+      submit: 'Xác nhận'
     create:
-      stage_create: 'Successfully Created'
+      stage_create: 'Bạn đã tạo thành công'
     update:
-      stage_update: 'Successfully Updated'
+      stage_update: 'Bạn đã cập nhật thành công'
     destroy:
-      stage_delete: 'Successfully Deleted'
+      stage_delete: 'Bạn đã xóa thành công'

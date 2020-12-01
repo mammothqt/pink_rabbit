@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
   scope '(:locale)', locale: /en|vi/ do
-    # devise_scope :users do
-    #   root 'devise/sessions#new'
-    # end
+    root 'main_pages#home'
 
     devise_for :users
     as :user do
@@ -13,7 +11,7 @@ Rails.application.routes.draw do
 
     resources :bookings
 
-    resources :stadiums
+    resources :stages, except: :show
 
     resources :votings
   end

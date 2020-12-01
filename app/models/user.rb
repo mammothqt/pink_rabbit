@@ -7,5 +7,5 @@ class User < ApplicationRecord
 
   validates :full_name, presence: true, length: { maximum: 100 }
 
-  enum role: { normal: 0, mode: 1, admin: 2}
+  enum role: { normal: 0, mod: 1, admin: 2}
 end
